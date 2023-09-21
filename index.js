@@ -34,8 +34,8 @@ client.commands.forEach(command => {
   commands.push(command.data);
 });
 
-const clientId = '797083844922048582'; // Замените на ваш ID клиента бота
-const guildId = '744969348581556377'; // Замените на ID вашего сервера
+const clientId = ''; // Замените на ваш ID клиента бота
+const guildId = ''; // Замените на ID вашего сервера
 
 const rest = new REST({ version: '10' }).setToken(config.token);
 
